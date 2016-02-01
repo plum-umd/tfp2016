@@ -312,7 +312,7 @@
 	 (td "April 15, 2016"))
      (tr (td "Registration:")
 	 (td "May 13, 2016"))
-     (tr (td "TFIE Workshop:")
+     (tr (td "TFPIE Workshop:")
 	 (td "June 7, 2016"))
      (tr (td "TFP Symposium:")
 	 (td "June 8" ndash "10, 2016"))
