@@ -1,14 +1,14 @@
-		    -----------------------------
-		    C A L L   F O R   P A P E R S
-		    -----------------------------
+                    -----------------------------
+                    C A L L   F O R   P A P E R S
+                    -----------------------------
 
-		    ======== TFP 2016 ===========
+                    ======== TFP 2016 ===========
                          
-	  17th Symposium on Trends in Functional Programming
-			   June 8-10, 2016
-		 University of Maryland, College Park
-			 near Washington, DC
-			 http://tfp2016.org/
+          17th Symposium on Trends in Functional Programming
+                           June 8-10, 2016
+                 University of Maryland, College Park
+                         Near Washington, DC
+                         http://tfp2016.org/
 
 
 The symposium on Trends in Functional Programming (TFP) is an
