@@ -20,6 +20,11 @@
 (define pc
   (list
    (person/co '(pcm)
+	      "Chris" "Martens"
+	      "University of California, Santa Cruz"
+	      "http://www.cs.cmu.edu/~cmartens/"
+	      "US")
+   (person/co '(pcm)
 	      "Nada" "Amin"
 	      epfl
 	      "http://namin.org/"
@@ -60,7 +65,7 @@
 	      "http://www.cse.chalmers.se/~rjmh/"
 	      "SE")
    (person/co '(pcm)
-	      "Suresh" "Jagganathan"
+	      "Suresh" "Jagannathan"
 	      "Purdue University"
 	      "https://www.cs.purdue.edu/homes/suresh/"
 	      "US")
@@ -76,7 +81,7 @@
 	      "US")
    (person/co '(pcm)
 	      "Jay" "McCarthy"
-	      "UMass Lowell"
+	      "University of Massachusetts, Lowell"
 	      "https://jeapostrophe.github.io/"
 	      "US")
    (person/co '(pcm)
