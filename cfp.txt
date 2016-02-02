@@ -23,7 +23,7 @@ articles for formal publication.
 TFP 2016 will be the main event of a pair of functional programming
 events. TFP 2016 will be accompanied by the International Workshop on
 Trends in Functional Programming in Education (TFPIE), which will take
-place on June 2nd.
+place on June 7nd.
 
 The TFP symposium is the heir of the successful series of Scottish
 Functional Programming Workshops. Previous TFP symposia were held in
