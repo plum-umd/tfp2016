@@ -297,8 +297,17 @@
           (href "http://www-fp.cs.st-andrews.ac.uk/tifp/"))
          "More about TFP"))
 
-     
-     )))
+     (li
+      ((class "roomy"))
+      (a ((class "navigation"))
+	 "Sponsors")))
+         
+    (img ((class "sponsor") (src "cyberpoint-logo.png")))
+    (img ((class "sponsor") (src "galois-logo.png")))
+    (img ((class "sponsor") (src "trail-of-bits-logo.png")))
+    (img ((class "sponsor") (src "umd-cs-logo.png")))))
+
+    
 
 (define footers
   `((div
@@ -497,16 +506,12 @@ articles for formal publication.}
 
          ,@important-dates
          
-	 (h3 "Sponsors")
-
-	 (ul
-	  (li "Galois")
-	  (li "Cyberpoint")
-	  (li "UMD Computer Science")))
-	 
+	 )
        
         ,col2)))
      ,@footers)))
+
+
   
 (define local.xexpr
   (make-page 
