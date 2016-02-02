@@ -502,7 +502,12 @@ taken place.")
 	 @p{The symposium on Trends in Functional Programming (TFP) is an international forum for researchers with interests in all aspects of functional programming, taking a broad view of current and future trends in the area. It aspires to be a lively environment for presenting the latest research results, and other contributions (see below). Authors of draft papers will be invited to submit revised papers based on the feedback receive at the symposium.  A post-symposium refereeing process will then select a subset of these
 articles for formal publication.}
                   
-	 @p{TFP 2016 will be the main event of a pair of functional programming events. TFP 2016 will be accompanied by the International Workshop on Trends in Functional Programming in Education (TFPIE), which will take place on June 7nd.}
+	 (p "TFP 2016 will be the main event of a pair of functional
+	 programming events. TFP 2016 will be accompanied by "
+	    (a ((href "https://wiki.science.ru.nl/tfpie/TFPIE2016"))
+	       "the International Workshop on Trends in Functional Programming
+	 in Education (TFPIE)")
+	    ", which will take place on June 7nd.")
 
          ,@important-dates
          
@@ -533,8 +538,10 @@ articles for formal publication.}
      (center
       (h1 "TFPIE satellite event"))
      ;(h2 "Conference venue")
-     (p "The 5th International Workshop on Trends in Functional
-Programming in Education, TFPIE 2016, will be co-located with the
+     (p (a ((href "https://wiki.science.ru.nl/tfpie/TFPIE2016")) 
+	   "The 5th International Workshop on Trends in Functional
+Programming in Education")
+	", TFPIE 2016, will be co-located with the
 Symposium on Trends in Functional Programming."))))
 
 
