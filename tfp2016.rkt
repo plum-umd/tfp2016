@@ -504,8 +504,10 @@ taken place.")
               (br)
               #;@em["Affiliated TFPIE event: "  ,@affiliated-dates]))
 	      
-	 @p{The symposium on Trends in Functional Programming (TFP) is an international forum for researchers with interests in all aspects of functional programming, taking a broad view of current and future trends in the area. It aspires to be a lively environment for presenting the latest research results, and other contributions (see below). Authors of draft papers will be invited to submit revised papers based on the feedback receive at the symposium.  A post-symposium refereeing process will then select a subset of these
-articles for formal publication.}
+	 (p "The symposium on Trends in Functional Programming (TFP) is an international forum for researchers with interests in all aspects of functional programming, taking a broad view of current and future trends in the area. It aspires to be a lively environment for presenting the latest research results, and other contributions (see the "
+	    (a ((href "cfp.html")) "call for papers") 
+	    " for details). Authors of draft papers will be invited to submit revised papers based on the feedback receive at the symposium.  A post-symposium refereeing process will then select a subset of these
+articles for formal publication.")
                   
 	 (p "TFP 2016 will be the main event of a pair of functional
 	 programming events. TFP 2016 will be accompanied by "
@@ -536,7 +538,7 @@ articles for formal publication.}
 
      (h2 "University of Maryland at College Park")
 
-     (img ((src "umd-landscape-sm.png") (style "float: right; padding-left: 1em")))
+     (img ((src "umd-landscape-sm.png") (class "right")))
 
      (p "Founded in 1856, UMD is the flagship public university of "
 	"Maryland, serving over 37,000 students just outside "
@@ -555,7 +557,7 @@ articles for formal publication.}
 	"meet-ups for FP languages and several authors of FP books are "
 	"based in D.C.")
 
-     (img ((src "plum-logo.png") (style "float: left; padding-right: 1em;")))
+     (img ((src "plum-logo.png") (class "left")))
 
      (p "The lab for Programming Languages at the University of "
 	"Maryland (PLUM) is an active research group comprised of "
@@ -570,6 +572,8 @@ articles for formal publication.}
 
      (h2 "Washington, DC")
      
+     (img ((src "dc-sm.png") (class "right")))
+
      (p "Washington, D.C. is the national capital of the United "
 	"States.  It is home to a number of national monuments, parks, "
 	"museums, libraries, and the national zoo, all of which have "
@@ -661,11 +665,82 @@ articles for formal publication.}
 
      (h2 "Accomodations")
 
-     (p "More details will appear soon."))))
+     (p "More details will appear soon.")
 
+     (h2 "Where to eat in College Park")
 
+     (p "There are basically two areas with several restaurants within "
+	"walking distance of the TFP venue: there's a row of restaurants "
+	"along Route 1 (Baltimore Avenue) that is about a 5 minute walk "
+	"away, and there's downtown College Park, which is about a 15 "
+	"minute way.")
 
-     
+     (h3 "Restaurants on Route 1, Baltimore Avenue")
+
+     (dl
+      (dt (a ((href "http://www.theboardandbrew.com/")) "The Board and Brew")
+	  ", $$")
+      (dd "Cafe with coffee, espresso drinks, craft beer, sandwiches, "
+	  "and small plates.  Oh, and lots and lots of board games.")
+      (dt (a ((href "http://sweetgreen.com/")) "Sweetgreen")
+	  ", $$")      
+      (dd "Salads: \"simple, seasonal, healthy salads and grain bowls made in-house from scratch, using whole produce delivered that morning.\"")
+      (dt (a ((href "http://bobbysburgerpalace.com/")) 
+	     "Bobby's Burger Palace")
+	  ", $$")
+      (dd "Burgers: gourmet burgers by celebrity chef Bobby Flay.")
+      (dt (a ((href "http://www.shanghaitokyo.co/")) "Shanghai Tokyo")
+	  ", $$")
+      (dd "Pan-Asian style Chinese, Thai, and sushi.")
+      (dt (a ((href "http://looneyspubmd.com/college-park/")) "Looney's Pub")
+	  ", $$")
+      (dd "College bar with typical bar food menu.  Expect lots of undergrads.")
+      (dt (a ((href "http://www.yelp.com/biz/town-hall-liquors-college-park")) "Town Hall") ", $")
+      
+      (dd "Townie dive bar (and liquor store). OK to bring in outside "
+	  "food. A PLUM Lab favorite. Cash only. (ATM sometimes works.)")
+      
+      (dt (a ((href "http://www.yelp.com/biz/food-factory-college-park-2"))
+	     "Food Factory")
+	  ", $")
+      (dd "Afghan food with a good buffet option.  Better than the name suggests.")
+      (dt (a ((href "http://phodlite.com/")) "Pho D'Lite")
+	  ", $")
+      (dd "South East Asian food with several pho dishes.")
+      (dt (a ((href "http://www.yelp.com/biz/hanami-japanese-restaurant-college-park"))
+	     "Hanami Japanese Restaurant")
+	  ", $$")
+      (dd "Japanese dishes including sushi bar"))
+      
+    
+
+     (h3 "Restaurants in downtown College Park")
+     (p "More to come soon.")
+
+     (h2 "Where to eat in DC")
+     (p "There are many great restaurants in DC that are easily "
+	"accessible from College Park by metro if you'd like to "
+	"have a more adventurous evening.  Here are just a few "
+	"options.")
+
+     (dl
+      (dt (a ((href "http://www.jaleo.com/dc/")) "Jaleo") ", $$$")
+      (dd "Spanish tapas by Jos" eacute " Andr" eacute "s in the heart
+of the Penn Quarter. "
+	  "On Green/Yellow line between Gallery Place and Archives. "
+	  "Reservations recommended.")
+      (dt (a ((href "http://jackrosediningsaloon.com/")) "Jack Rose Dining Saloon")
+	  ", $$")
+      (dd "2,390 bottles of Whisk(e)y on the wall.  Take one down, "
+	  "pass it around.  Closest metro is Dupont Circle on the "
+	  "Red line.")
+      (dt (a ((href "http://www.rosesluxury.com/")) "Rose's Luxury")
+	  ", $$$")
+      (dd "Highly sought out restaurant in Capitol Hill area. "
+	  "Expect a long wait.  You might be able to make a "
+	  "reservation for a group of 6-8."))
+
+     (p "More to come soon."))))
 
 
 (define tfpie.xexpr
