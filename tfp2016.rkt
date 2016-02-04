@@ -528,7 +528,140 @@ articles for formal publication.}
      (h2 "Conference venue")
      (p "The conference will take place at the " 
 	"University of Maryland in College Park, Maryland.")
+
+     (h2 "University of Maryland at College Park")
+
+     (img ((src "umd-landscape-sm.png") (style "float: right; padding-left: 1em")))
+
+     (p "Founded in 1856, UMD is the flagship public university of "
+	"Maryland, serving over 37,000 students just outside "
+	"Washington, D.C.")
+
+     (p "The campus is 1,250 acres (5.1 km" (sup "2") 
+	") and noted for its "
+	"red-brick, Georgian architecture, large central lawn, and 400 "
+	"acres (1.6 km" (sup "2") ") of urban forest.")
+
+
+     (h2 "Functional Programming in the DC Region")
+
+     (p "The Washington, D.C. region is home to a large, thriving "
+	"functional programming community.  There are frequent "
+	"meet-ups for FP languages and several authors of FP books are "
+	"based in D.C.")
+
+     (img ((src "plum-logo.png") (style "float: left; padding-right: 1em;")))
+
+     (p "The lab for Programming Languages at the University of "
+	"Maryland (PLUM) is an active research group comprised of "
+	"nearly 20 researchers with a strong emphasis on functional "
+	"languages.")
+
+     (p "Within a four hour drive of UMD are researchers at CMU, Penn, "
+	"Johns Hopkins, Princeton, and many more.")
+
+     (p "D.C. is home to several national laboratories and funding "
+	"agencies that use or support FP research.")
+
+     (h2 "Washington, DC")
+     
+     (p "Washington, D.C. is the national capital of the United "
+	"States.  It is home to a number of national monuments, parks, "
+	"museums, libraries, and the national zoo, all of which have "
+	"free admission.")
+
+     (h3 "Getting to DC: By plane")
+
+     (p "DC is served by three major airports with many direct "
+	"international flights:")
+
+     (ul 
+      (li "DCA - Washington National Airport: "
+	  "Located near downtown Washington, DC, this is the most "
+	  "convenient airport to fly in to.  It is located on the "
+	  "WMATA metro Yellow line, which runs to UMD during peak "
+	  "hours, and requires only a single transfer to the Green "
+	  "line during off-peak hours.  International flights into "
+	  "DCA are pretty limited (but there are some).")
+
+      (li "IAD - Dulles International Airport: "
+	  "Located about 30 miles West of Washington, DC. this is "
+	  "the largest and most international airport in the region "
+	  "with direct flights to most major international hubs in "
+	  "the world. Travelling from Dulles to DC or College Park "
+	  "will require a long and expensive cab ride, a shuttle bus, "
+	  "or a somewhat convoluted trip on the WMATA public "
+	  "transportation system.")
+
+      (li "BWI - Baltimore-Washington International Airport: "
+	  "Located between Washington, DC and Baltimore, MD, this "
+	  "airport is about 25 miles Northeast of College Park. "
+	  "It is a smaller airport, but include some carriers "
+	  "(such as Southwest Airlines) not available at DCA or IAD."))
+
+     (h3 "Getting to DC: By train")
+
+     (p "DC is in the " (a ((href "https://www.amtrak.com/northeast-train-routes")) "\"Northeast Corridor\"") ", one of the few regions "
+	"of the US with decent train service from "
+	(a ((href "http://amtrak.com/")) "Amtrak") ", which serves "
+	"Washington Union station, located in downtown DC and on "
+	"the WMATA metro Red line.  It is fairly pleasant to travel "
+	"to DC from Philadelphia, New York, Boston, and points in "
+	"between by Amtrak train.")
+
+     (p "On a more regional scale, Union Station is also served by "
+	"the "
+	(a ((href "http://mta.maryland.gov/marc-train"))
+	   "Maryland Area Regional Commuter (MARC)") 
+	" train and the "
+	(a ((href "http://www.vre.org/")) 
+	   "Virginia Railway Express (VRE)")
+	" train .")
+
+     (h3 "Getting around DC")
+
+
+     (p "There is an excellent public transportation system and "
+	"regional train system.  There are many taxis available.")
+
+     (p "The city is compact, walkable, and bike-friendly.  The "
+	"Capital Bikeshare program makes it easy and convenient to "
+	"navigate the city by bicycle.")
+
+     (p (span ((style "font-weight: bold"))
+	      "Driving a car in the city is not advised."))
+
+     (h2 "Travelling to College Park from DC")     
+
+     (p "College Park, Maryland is in the Washington DC area (inside "
+	"the beltway) and accessible from DC by the public subway "
+	"system.")
+
+     (p "Take the " (a ((href "http://wmata.com/")) "WMATA")
+	" Green line to the College Park" ndash "UMD "
+	"station.  During peak hours, the Yellow Line \"rush plus\" "
+	"trains also service the College Park"ndash"UMD station.")
+
+     (p "From the College Park station, you can "
+	(a ((href "https://goo.gl/maps/b7VhogUXNiq"))
+	   "walk 1.3 miles (2.1km) to campus")
+	", or you can take the "
+	(a ((href "http://www.transportation.umd.edu/shuttle.html"))
+	   "UMD Shuttle Bus #104")
+	", which boards in the metro station parking lot.  Exit the "
+	"bus at the Glenn L. Martin Wind Tunnel, which is next door to "
+	"the Computer Science Department in the A. V. Williams "
+	"Building.")
+
+
+     (h2 "Accomodations")
+
      (p "More details will appear soon."))))
+
+
+
+     
+
 
 (define tfpie.xexpr
   (make-page 
