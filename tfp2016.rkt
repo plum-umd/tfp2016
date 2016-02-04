@@ -113,6 +113,11 @@
 	      "Niki" "Vazou"
 	      "University of California, San Diego"
 	      "http://goto.ucsd.edu/~nvazou/"
+	      "US")
+   (person/co '(pcm)
+	      "Stephanie" "Weirich"
+	      "University of Pennsylvania"
+	      "https://www.cis.upenn.edu/~sweirich/"
 	      "US")))
 
 ;; end PC
