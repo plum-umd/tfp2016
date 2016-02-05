@@ -631,12 +631,13 @@ articles for formal publication.")
 
 
      (p "There is an excellent public transportation system and "
-	"regional train system.  There are many taxis available.")
+	"regional train system.  There are many taxis available. "
+	"Uber and Lyft operate in the region.")
 
      (p "If you plan to use public transportation, you purchase a "
 	(a ((href "http://www.wmata.com/fares/smartrip/"))
 	   "SmarTrip")
-	"card, which are available for purchase at all Metro "
+	" card, which are available for purchase at all Metro "
 	"stations.  The rechargeable card costs $10, but includes "
 	"$8 of stored value (so the card itself only costs $2). "
 	"Using a SmarTrip card reduces the fare of each trip "
@@ -650,8 +651,12 @@ articles for formal publication.")
 	"Capital Bikeshare program makes it easy and convenient to "
 	"navigate the city by bicycle.")
 
-     (p (span ((style "font-weight: bold"))
-	      "Driving a car in the city is not advised."))
+     (p "There are several rental car companies in the area and "
+	"also several car-sharing services such as Car2Go, "
+	"ZipCar, Enterprise CarShare, and Hertz OnDemand. "
+	"However, "
+	(span ((style "font-weight: bold"))
+	      "driving a car in the city is not advised."))
 
      (h2 "Travelling to College Park from DC")     
 
