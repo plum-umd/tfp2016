@@ -542,7 +542,7 @@ articles for formal publication.")
 
      (p "Founded in 1856, UMD is the flagship public university of "
 	"Maryland, serving over 37,000 students just outside "
-	"Washington, D.C.")
+	"Washington, DC")
 
      (p "The campus is 1,250 acres (5.1 km" (sup "2") 
 	") and noted for its "
@@ -552,10 +552,10 @@ articles for formal publication.")
 
      (h2 "Functional Programming in the DC Region")
 
-     (p "The Washington, D.C. region is home to a large, thriving "
+     (p "The Washington, DC region is home to a large, thriving "
 	"functional programming community.  There are frequent "
 	"meet-ups for FP languages and several authors of FP books are "
-	"based in D.C.")
+	"based in DC")
 
      (img ((src "plum-logo.png") (class "left")))
 
@@ -567,14 +567,14 @@ articles for formal publication.")
      (p "Within a four hour drive of UMD are researchers at CMU, Penn, "
 	"Johns Hopkins, Princeton, and many more.")
 
-     (p "D.C. is home to several national laboratories and funding "
+     (p "DC is home to several national laboratories and funding "
 	"agencies that use or support FP research.")
 
      (h2 "Washington, DC")
      
      (img ((src "dc-sm.png") (class "right")))
 
-     (p "Washington, D.C. is the national capital of the United "
+     (p "Washington, DC is the national capital of the United "
 	"States.  It is home to a number of national monuments, parks, "
 	"museums, libraries, and the national zoo, all of which have "
 	"free admission.")
@@ -588,9 +588,9 @@ articles for formal publication.")
       (li "DCA - Washington National Airport: "
 	  "Located near downtown Washington, DC, this is the most "
 	  "convenient airport to fly in to.  It is located on the "
-	  "WMATA metro Yellow line, which runs to UMD during peak "
+	  "WMATA metro Yellow Line, which runs to UMD during peak "
 	  "hours, and requires only a single transfer to the Green "
-	  "line during off-peak hours.  International flights into "
+	  "Line during off-peak hours.  International flights into "
 	  "DCA are pretty limited (but there are some).")
 
       (li "IAD - Dulles International Airport: "
@@ -611,10 +611,10 @@ articles for formal publication.")
      (h3 "Getting to DC: By train")
 
      (p "DC is in the " (a ((href "https://www.amtrak.com/northeast-train-routes")) "\"Northeast Corridor\"") ", one of the few regions "
-	"of the US with decent train service from "
+	"of the US with frequent train service from "
 	(a ((href "http://amtrak.com/")) "Amtrak") ", which serves "
 	"Washington Union station, located in downtown DC and on "
-	"the WMATA metro Red line.  It is fairly pleasant to travel "
+	"the WMATA metro Red Line.  It is fairly pleasant to travel "
 	"to DC from Philadelphia, New York, Boston, and points in "
 	"between by Amtrak train.")
 
@@ -633,6 +633,19 @@ articles for formal publication.")
      (p "There is an excellent public transportation system and "
 	"regional train system.  There are many taxis available.")
 
+     (p "If you plan to use public transportation, you purchase a "
+	(a ((href "http://www.wmata.com/fares/smartrip/"))
+	   "SmarTrip")
+	"card, which are available for purchase at all Metro "
+	"stations.  The rechargeable card costs $10, but includes "
+	"$8 of stored value (so the card itself only costs $2). "
+	"Using a SmarTrip card reduces the fare of each trip "
+	"by $1, so the card pays for itself with one round-trip. ")
+
+     (p "Metro fares are based on distance travelled (and time "
+	"of day), so you will need to use your card to enter "
+	"and exit the system.")
+
      (p "The city is compact, walkable, and bike-friendly.  The "
 	"Capital Bikeshare program makes it easy and convenient to "
 	"navigate the city by bicycle.")
@@ -642,12 +655,12 @@ articles for formal publication.")
 
      (h2 "Travelling to College Park from DC")     
 
-     (p "College Park, Maryland is in the Washington DC area (inside "
-	"the beltway) and accessible from DC by the public subway "
+     (p "College Park, Maryland is in the Washington DC area "
+	" and accessible from DC by the Metro "
 	"system.")
 
      (p "Take the " (a ((href "http://wmata.com/")) "WMATA")
-	" Green line to the College Park" ndash "UMD "
+	" Green Line to the College Park" ndash "UMD "
 	"station.  During peak hours, the Yellow Line \"rush plus\" "
 	"trains also service the College Park"ndash"UMD station.")
 
@@ -663,7 +676,7 @@ articles for formal publication.")
 	"Building.")
 
 
-     (h2 "Accomodations")
+     (h2 "Accommodations")
 
      (p "More details will appear soon.")
 
@@ -727,13 +740,13 @@ articles for formal publication.")
       (dt (a ((href "http://www.jaleo.com/dc/")) "Jaleo") ", $$$")
       (dd "Spanish tapas by Jos" eacute " Andr" eacute "s in the heart
 of the Penn Quarter. "
-	  "On Green/Yellow line between Gallery Place and Archives. "
+	  "On Green/Yellow Line between Gallery Place and Archives. "
 	  "Reservations recommended.")
       (dt (a ((href "http://jackrosediningsaloon.com/")) "Jack Rose Dining Saloon")
 	  ", $$")
       (dd "2,390 bottles of Whisk(e)y on the wall.  Take one down, "
 	  "pass it around.  Closest metro is Dupont Circle on the "
-	  "Red line.")
+	  "Red Line.")
       (dt (a ((href "http://www.rosesluxury.com/")) "Rose's Luxury")
 	  ", $$$")
       (dd "Highly sought out restaurant in Capitol Hill area. "
