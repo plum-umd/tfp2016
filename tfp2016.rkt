@@ -645,7 +645,8 @@ articles for formal publication.")
 
      (p "Metro fares are based on distance travelled (and time "
 	"of day), so you will need to use your card to enter "
-	"and exit the system.")
+	(span ((style "font-weight: bold")) "and exit")
+	" the system.")
 
      (p "The city is compact, walkable, and bike-friendly.  The "
 	"Capital Bikeshare program makes it easy and convenient to "
