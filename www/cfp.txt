@@ -26,6 +26,18 @@ events. TFP 2016 will be accompanied by the International Workshop on
 Trends in Functional Programming in Education (TFPIE), which will take
 place on June 7nd.
 
+
+== INVITED SPEAKERS ==
+
+TFP 2016 is pleased to announce keynote talks by the following two
+invited speakers:
+
+* Ronald Garcia, University of British Columbia
+* Steve Zdancewic, University of Pennsylvania
+
+
+== HISTORY ==
+
 The TFP symposium is the heir of the successful series of Scottish
 Functional Programming Workshops. Previous TFP symposia were held in
    * Edinburgh (Scotland) in 2003;
