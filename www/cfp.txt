@@ -1,13 +1,14 @@
-		    -----------------------------
-		    C A L L   F O R   P A P E R S
-		    -----------------------------
+                    -----------------------------
+                    C A L L   F O R   P A P E R S
+                    -----------------------------
 
-		    ======== TFP 2016 ===========
-			 
-	  17th Symposium on Trends in Functional Programming
-			   June 8-10, 2016
-		 University of Maryland, College Park
-			 http://tfp2016.org/
+                    ======== TFP 2016 ===========
+                         
+          17th Symposium on Trends in Functional Programming
+                           June 8-10, 2016
+                 University of Maryland, College Park
+                         Near Washington, DC
+                         http://tfp2016.org/
 
 
 The symposium on Trends in Functional Programming (TFP) is an
@@ -23,7 +24,19 @@ articles for formal publication.
 TFP 2016 will be the main event of a pair of functional programming
 events. TFP 2016 will be accompanied by the International Workshop on
 Trends in Functional Programming in Education (TFPIE), which will take
-place on June 2nd.
+place on June 7nd.
+
+
+== INVITED SPEAKERS ==
+
+TFP 2016 is pleased to announce keynote talks by the following two
+invited speakers:
+
+* Ronald Garcia, University of British Columbia
+* Steve Zdancewic, University of Pennsylvania
+
+
+== HISTORY ==
 
 The TFP symposium is the heir of the successful series of Scottish
 Functional Programming Workshops. Previous TFP symposia were held in
@@ -169,4 +182,4 @@ Scott Smith             Johns Hopkins University (US)
 Éric Tanter             University of Chile (CL)
 David Van Horn (Chair)  University of Maryland (US)
 Niki Vazou              University of California, San Diego (US)
-
+Stephanie Weirich       University of Pennsylvania (US)
