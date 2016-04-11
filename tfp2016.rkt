@@ -326,9 +326,9 @@
     (table
      ((cellpadding "5"))
      (tr (td "Submissions of draft papers:")
-         (td "April 8, 2016"))
+         (td "April 25, 2016"))
      (tr (td "Notification:")
-	 (td "April 15, 2016"))
+	 (td "May 2, 2016"))
      (tr (td "Registration:")
 	 (td "May 13, 2016"))
      (tr (td "TFPIE Workshop:")
@@ -458,7 +458,8 @@ global computing, grids, etc.")
      (p "Acceptance of articles for presentation at the symposium is based on a lightweight peer review process of extended abstracts (4 to 10 pages in length) or full papers (20 pages). The submission must clearly indicate which category it belongs to: research, position, project, evaluation, or overview paper. It should also indicate which authors are research students, and whether the main author(s) are students.  A draft paper for which ALL authors are students will receive additional feedback by one of the PC members shortly after the symposium has
 taken place.")
 
-     (p "The URL for submitting papers will apear here shortly.")
+     (p "The URL for submitting papers is: ")
+     (center (a ((href "https://easychair.org/conferences/?conf=tfp2016")) "https://easychair.org/conferences/?conf=tfp2016"))
      
      (p "Papers must be written in English and formatted using the LNCS style. For more information about formatting please consult the Springer LNCS web site:")
      (center (a ((href "http://www.springer.com/computer/lncs?SGWID=0-164-6-793341-0"))
@@ -515,6 +516,10 @@ articles for formal publication.")
 	       "the International Workshop on Trends in Functional Programming
 	 in Education (TFPIE)")
 	    ", which will take place on June 7nd.")
+
+	    (p "Submit here:")
+	    (center (a ((href "https://easychair.org/conferences/?conf=tfp2016")) "https://easychair.org/conferences/?conf=tfp2016"))
+
 
          ,@important-dates
          
