@@ -520,7 +520,16 @@ articles for formal publication.")
 	    (p "Submit here:")
 	    (center (a ((href "https://easychair.org/conferences/?conf=tfp2016")) "https://easychair.org/conferences/?conf=tfp2016"))
 
-
+	    (h3 "Invited Speakers")
+	    (table (tr (td (img ((src "garcia-sm.jpg"))))
+		       (td (a ((href "http://www.cs.ubc.ca/~rxg/")) "Ronald Garcia")
+			   ", University of British Columbia: "
+			   (em "Static and Dynamic Type Checking: A Synopsis")))
+		   (tr (td (img ((src "zdancewic-sm.jpg"))))
+		       (td (a ((href "https://www.cis.upenn.edu/~stevez/")) "Steve Zdancewic")
+			   ", University of Pennsylvania:"
+			   (em "Type- and Example-Driven Program Synthesis"))))
+	    
          ,@important-dates
          
 	 )
