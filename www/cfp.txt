@@ -1,3 +1,12 @@
+TFP 2016 has extended its deadline for draft papers by two weeks (now
+April 25).  Although all draft papers accepted to TFP 2016 will be
+invited to submit to the post-symposium formal proceedings, authors
+are reminded that they are not obligated to do so; we welcome works in
+progress that may not be destined for the TFP proceedings.
+
+Thanks,
+David Van Horn
+
                     -----------------------------
                     C A L L   F O R   P A P E R S
                     -----------------------------
@@ -32,8 +41,11 @@ place on June 7nd.
 TFP 2016 is pleased to announce keynote talks by the following two
 invited speakers:
 
-* Ronald Garcia, University of British Columbia
-* Steve Zdancewic, University of Pennsylvania
+* Ronald Garcia, University of British Columbia: "Static and Dynamic
+  Type Checking: A Synopsis"
+
+* Steve Zdancewic, University of Pennsylvania: "Type- and
+  Example-Driven Program Synthesis"
 
 
 == HISTORY ==
@@ -150,8 +162,8 @@ http://www.springer.com/computer/lncs?SGWID=0-164-6-793341-0
 
 == IMPORTANT DATES ==
 
-Submission of draft papers:     April 8, 2016
-Notification:                   April 15, 2016
+Submission of draft papers:     April 25, 2016
+Notification:                   May 2, 2016
 Registration:                   May 13, 2016
 TFP Symposium:                  June 8-10, 2016
 Student papers feedback:        June 14, 2016
