@@ -555,8 +555,6 @@
 	 (dt "A Type Checker for Annotated OCaml Abstract Syntax Trees, or An Effective Type System for OCaml")
 	 (dd "Pierrick Couderc, Michel Mauny, Gr" 'eacute "goire Henry and Fabrice Le Fessant")
 
-	 (dt "Nominal LCF: A Language for Generic Proof")
-	 (dd "Jon Sterling")
 
 	 (dt "Proving Type Class Laws for Haskell")
 	 (dd "Andreas Arvidsson, Moa Johansson and Robin Touche")
