@@ -252,6 +252,13 @@
         (href "index.html"))
        "TFP 2016"))
 
+
+     (li
+      ((class "roomy"))
+      (a ((class "navigation")
+          (href "schedule.html"))
+         "Schedule"))
+
      
      (li
       ((class "roomy"))
@@ -383,6 +390,115 @@
      ,@(map (lambda (p) (row/co "" p person/co-country)) (get-roles 'pcm)))))
 
 
+(define schedule.xexpr
+  (make-page
+    "Schedule"
+    `(div
+      ((class "col1"))
+      (center (h1 "Schedule of events"))
+      (h2 "Tuesday, June 7: TFPIE")
+      (h3 "9:00" ndash "4:30, See the " (a ((href "http://wiki.science.ru.nl/tfpie/TFPIE2016")) "TFPIE") " website for the schedule.")
+      (h2 "Wednesday, June 8: TFP, Day 1")
+      
+      (h3 "9:00" ndash "9:15: Chair's opening remarks")
+      (dl (dd "David Van Horn"))
+      
+      (h3 "9:15" ndash "10:15: Inivited talk")
+      (dl
+       (dt "Static and Dynamic Type Checking: A Synopsis")
+       (dd "Ronald Garcia"))
+      (h3 "10:15" ndash "10:45: Break")
+      (h3 "10:45" ndash "12:15: Session I")
+      (dl
+       (dt "What is Your Function? Static Pattern Matching on Function Behavior")
+       (dd "Leandro Facchinetti, Pottayil Harisanker Menon, Zachary Palmer, Alexander Rozenshteyn and Scott Smith")
+       (dt "Project Report: Dependently typed programming with lambda encodings in Cedille")
+       (dd "Ananda Guneratne, Chad Reynolds and Aaron Stump")
+       (dt "The Random Access Zipper: Simple, Purely-Functional Sequences")
+       (dd "Kyle Headley and Matthew Hammer")
+       
+       
+       )
+      (h3 "12:15" ndash "1:30: Lunch")
+      (h3 "1:30" ndash "3:00: Session II")
+
+      (dl
+       (dt "Improving Sequential Performance of Erlang based on a Meta-tracing Just-In-Time Compiler")
+       (dd "Ruochen Huang, Hidehiko Masuhara and Tomoyuki Aotani")
+       (dt "Functional, Reactive Web Abstractions")
+       (dd "Loic Denuziere and Adam Granicz")
+       (dt "Lightweight Affine Static Capabilities")
+       (dd "Brian Mastenbrook and Kevin Marth"))
+      
+      (h3 "3:00" ndash "3:30: Break")
+      (h3 "3:30" ndash "4:30: Session III")
+
+      (dl
+       (dt "Space-Efficient Latent Contracts")
+       (dd "Michael Greenberg")
+       (dt "Type-Safe Functions and Tasks in a Shallow Embedded DSL for Microprocessors")
+       (dd "Pieter Koopman and Rinus Plasmeijer"))
+
+      (h2 "Thursday, June 9: TFP, Day 2")
+      
+      (h3 "9:00" ndash "10:30: Session IV")
+
+      (dl
+       (dt "Using DSLs to help people solve rule-based problems")
+       (dd "Nico Naus and Johan Jeuring")
+       (dt "Threading the Arduino with Haskell")
+       (dd "Mark Grebe and Andy Gill")
+       (dt "A Type Inference System Based on Saturation of Subtyping Constraints")
+       (dd "Benoit Vaugon and Michel Mauny")
+       )
+
+      (h3 "10:30" ndash "11:00: Break")
+      (h3 "11:00" ndash "12:30: Session V")
+      (dl
+       (dt "Cactus Environment Machine: Shared Environment Call-by-Need")
+       (dd "George Stelle, Darko Stefanovic, Stephen Olivier and Stephanie Forrest")
+       (dt "Hazelnut: A Minimal Bidirectionally Typed Structure Editor")
+       (dd "Cyrus Omar, Michael Hilton, Ian Voysey, Jonathan Aldrich and Matthew Hammer")
+       (dt "Functional BIP: Embedding Connectors in Functional Programming Languages")
+       (dd "Romain Edelmann, Simon Bliudze and Joseph Sifakis"))
+       
+      (h3 "12:30" ndash "1:45: Lunch")
+      (h3 "2:00" ndash "6:00: Social outing: Washington, DC museums")
+      (h3 "7:00" ndash "9:00: TFP Dinner")
+
+
+
+      (h2 "Friday, June 10: TFP, Day 3")
+      
+      (h3 "9:00" ndash "10:15: Invited talk")
+      (dl
+       (dt "Type- and Example-Driven Program Synthesis")
+       (dd "Steve Zdancewic"))
+      (h3 "10:15" ndash "10:45: Break")
+      (h3 "10:45" ndash "12:15: Session VI")
+
+      (dd
+              (dt "Automatic Parallelization and Transparent Fault Tolerance (Project article)")
+       (dd "Kei Davis, Dean Prichard, David Ringo, Loren Anderson and Jacob Marks")
+       (dt "Proving Type Class Laws for Haskell")
+       (dd "Andreas Arvidsson, Moa Johansson and Robin Touche")
+       (dt "Dynamic Flow Analysis for JavaScript")
+       (dd "Nico Naus and Peter Thiemann"))
+      
+      (h3 "12:15" ndash "1:30: Lunch")
+
+      (h3 "1:30" ndash "2:30: Session VII")
+      (dl
+       (dt "Separation of Concerns in iTasks " mdash " Implementing a Command & Control System in a Pure Functional Language")
+       (dd "Jurri" euml "n Stutterheim, Peter Achten and Rinus Plasmeijer")
+       (dt "A Type Checker for Annotated OCaml Abstract Syntax Trees, or An Effective Type System for OCaml")
+       (dd "Pierrick Couderc, Michel Mauny, Gr" eacute "goire Henry and Fabrice Le Fessant")
+       )
+
+      (h3 "2:30" ndash "2:40: Chair's closing remarks")
+      (dl (dd "David Van Horn")))))
+     
+      
 (define accepted.xexpr
   (make-page
     "Accepted papers"
@@ -906,6 +1022,7 @@ Symposium on Trends in Functional Programming."))))
 (write-page registration.xexpr "registration.html")
 (write-page local.xexpr "local.html")
 (write-page accepted.xexpr "accepted.html")
+(write-page schedule.xexpr "schedule.html")
 ;(write-page program.xexpr "program.html")
 
 
