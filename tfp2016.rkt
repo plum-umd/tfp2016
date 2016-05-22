@@ -252,12 +252,12 @@
         (href "index.html"))
        "TFP 2016"))
 
-     #;
+     
      (li
       ((class "roomy"))
       (a ((class "navigation")
-          (href "program.html"))
-         "Program"))
+          (href "accepted.html"))
+         "Accepted papers"))
      
      
      (li
@@ -330,7 +330,7 @@
      (tr (td "Notification:")
 	 (td "May 2, 2016"))
      (tr (td "Registration:")
-	 (td "May 13, 2016"))
+	 (td "June 1, 2016"))
      (tr (td "TFPIE Workshop:")
 	 (td "June 7, 2016"))
      (tr (td "TFP Symposium:")
@@ -382,6 +382,76 @@
      (tr (td "Program Committee:"))
      ,@(map (lambda (p) (row/co "" p person/co-country)) (get-roles 'pcm)))))
 
+
+(define accepted.xexpr
+  (make-page
+    "Accepted papers"
+     `(div
+        ((class "col1"))
+	(center
+	  (h1 "Papers accepted for presentation at TFP"))
+	(dl
+	 (dt "Separation of Concerns in iTasks -- Implementing a Command & Control System in a Pure Functional Language")
+	 (dd "Jurri" 'euml "n Stutterheim, Peter Achten and Rinus Plasmeijer")
+
+	 (dt "Space-Efficient Latent Contracts")
+	 (dd "Michael Greenberg")
+
+	 (dt "Using DSLs to help people solve rule-based problems")
+	 (dd "Nico Naus and Johan Jeuring")
+
+	 (dt "Dynamic Flow Analysis for JavaScript")
+	 (dd "Nico Naus and Peter Thiemann")
+
+	 (dt "Threading the Arduino with Haskell")
+	 (dd "Mark Grebe and Andy Gill")
+
+	 (dt "A Type Inference System Based on Saturation of Subtyping Constraints")
+	 (dd "Benoit Vaugon and Michel Mauny")
+
+	 (dt "Type-Safe Functions and Tasks in a Shallow Embedded DSL for Microprocessors")
+	 (dd "Pieter Koopman and Rinus Plasmeijer")
+
+	 (dt "Cactus Environment Machine: Shared Environment Call-by-Need")
+	 (dd "George Stelle, Darko Stefanovic, Stephen Olivier and Stephanie Forrest")
+
+	 (dt "Functional BIP: Embedding Connectors in Functional Programming Languages")
+	 (dd "Romain Edelmann, Simon Bliudze and Joseph Sifakis")
+
+	 (dt "Project Report: Dependently typed programming with lambda encodings in Cedille")
+	 (dd "Ananda Guneratne, Chad Reynolds and Aaron Stump")
+
+	 (dt "What is Your Function? Static Pattern Matching on Function Behavior")
+	 (dd "Leandro Facchinetti, Pottayil Harisanker Menon, Zachary Palmer, Alexander Rozenshteyn and Scott Smith")
+
+	 (dt "Automatic Parallelization and Transparent Fault Tolerance (Project article)")
+	 (dd "Kei Davis, Dean Prichard, David Ringo, Loren Anderson and Jacob Marks")
+
+	 (dt "The Random Access Zipper: Simple, Purely-Functional Sequences")
+	 (dd "Kyle Headley and Matthew Hammer")
+
+	 (dt "Improving Sequential Performance of Erlang based on a Meta-tracing Just-In-Time Compiler")
+	 (dd "Ruochen Huang, Hidehiko Masuhara and Tomoyuki Aotani")
+
+	 (dt "Hazelnut: A Minimal Bidirectionally Typed Structure Editor")
+	 (dd "Cyrus Omar, Michael Hilton, Ian Voysey, Jonathan Aldrich and Matthew Hammer")
+
+	 (dt "A Type Checker for Annotated OCaml Abstract Syntax Trees, or An Effective Type System for OCaml")
+	 (dd "Pierrick Couderc, Michel Mauny, Gr" 'eacute "goire Henry and Fabrice Le Fessant")
+
+	 (dt "Nominal LCF: A Language for Generic Proof")
+	 (dd "Jon Sterling")
+
+	 (dt "Proving Type Class Laws for Haskell")
+	 (dd "Andreas Arvidsson, Moa Johansson and Robin Touche")
+
+	 (dt "Functional, Reactive Web Abstractions")
+	 (dd "Loic Denuziere and Adam Granicz")
+
+	 (dt "Lightweight Affine Static Capabilities")
+	 (dd "Brian Mastenbrook and Kevin Marth")))))
+	     
+	 
 
 (define cfp.xexpr
   (make-page 
@@ -698,7 +768,27 @@ articles for formal publication.")
 
      (h2 "Accommodations")
 
-     (p "More details will appear soon.")
+     (p "There are several hotels within walking distance of the TFP venue.")
+
+     (p "Budget hotels ($75-100):")
+
+     (ul (li (a ((href "http://ter.ps/bmv")) "Howard Johnson Inn College Park"))
+         (li (a ((href "http://ter.ps/bmw")) "Clarion Inn"))
+	 (li (a ((href "http://ter.ps/bmx")) "Quality Inn & Suites")))
+
+     (p "Midrange hotels ($100-150):")
+
+     (ul (li (a ((href "http://ter.ps/bmy")) "College Park Hotel & Suites"))
+         (li (a ((href "http://ter.ps/bmz")) "Best Western Plus College Park Hotel")))
+
+     (p "Hi-end hotels ($200+):")
+
+     (ul (li (a ((href "http://ter.ps/bn0")) "College Park Marriott")))
+     
+     (p "If you'd like to stay in Washington, DC, there are many hotels (they are, in "
+        "general, more expensive) and AirBnB options.  To easy travel to College "
+	"Park, it is recommended you choose a location near a Green / Yellow line Metro "
+	"station.")
 
      (h2 "Where to eat in College Park")
 
@@ -798,7 +888,7 @@ Symposium on Trends in Functional Programming."))))
      ((class "col1"))
      (center
       (h1 "Registration"))
-     (p "Registration details will be posted here once they are available."))))
+     (p "Registration is available at this site: " (a ((href "https://www.regonline.com/tfp2016")) "https://www.regonline.com/tfp2016")))))
 
 
 (define (write-page xexpr fn)
@@ -815,6 +905,7 @@ Symposium on Trends in Functional Programming."))))
 (write-page tfpie.xexpr "tfpie.html")
 (write-page registration.xexpr "registration.html")
 (write-page local.xexpr "local.html")
+(write-page accepted.xexpr "accepted.html")
 ;(write-page program.xexpr "program.html")
 
 
