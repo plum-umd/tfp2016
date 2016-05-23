@@ -685,7 +685,8 @@ taken place.")
            (img ((class "city") (src ,city-img))))
           (h3 @em{University of Maryland, @,@city}
 	      (br)
-	      @em{@,@dates, @,year}
+	      @em{TFPIE: June 7, @,year} (br)
+	      @em{TFP: @,@dates, @,year}
               (br)
               #;@em["Affiliated TFPIE event: "  ,@affiliated-dates]))
 	      
@@ -1002,7 +1003,9 @@ Symposium on Trends in Functional Programming."))))
      ((class "col1"))
      (center
       (h1 "Registration"))
-     (p "Registration is available at this site: " (a ((href "https://www.regonline.com/tfp2016")) "https://www.regonline.com/tfp2016")))))
+     (p "Registration is available at this site: " (a ((href "https://www.regonline.com/tfp2016")) "https://www.regonline.com/tfp2016"))
+     (p "The registration fee is $100.  (UMD students are eligible for a discount; email the chair.)  This includes registration for TFP and TFPIE, "
+     "lunch for all four days, a social outing, and the TFP dinner in Washington, DC."))))
 
 
 (define (write-page xexpr fn)
