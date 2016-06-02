@@ -396,6 +396,11 @@
     `(div
       ((class "col1"))
       (center (h1 "Schedule of events"))
+
+      (p "All sessions for TFP and TFPIE take place in 1110 Kim Engineering.  See "
+	 (a ((href "local.html")) "local information") " for a map.")
+
+      
       (h2 "Tuesday, June 7: TFPIE")
       (h3 "9:00" ndash "4:30, See the " (a ((href "http://wiki.science.ru.nl/tfpie/TFPIE2016")) "TFPIE") " website for the schedule.")
       (h2 "Wednesday, June 8: TFP, Day 1")
@@ -463,8 +468,14 @@
        (dd "Romain Edelmann, Simon Bliudze and Joseph Sifakis"))
        
       (h3 "12:30" ndash "1:45: Lunch")
-      (h3 "2:00" ndash "6:00: Social outing: Washington, DC museums")
-      (h3 "7:00" ndash "9:00: TFP Dinner")
+      (h3 "2:00" ndash "6:30: Social outing")
+      (p (a ((href "http://americanart.si.edu/")) "Smithsonian American Art Museum")
+	 " and the "
+	 (a ((href "http://renwick.americanart.si.edu/")) "Renwick Gallery"))
+      
+      (h3 "7:00" ndash "9:30: TFP Dinner")
+      (p (a ((href "http://agoradc.net/")) "Agora") " (" (a ((href "agora_tfp_menu.pdf")) "menu") ")")
+      (p "1527 17th Street NW Washington, DC")
 
 
 
@@ -735,6 +746,16 @@ articles for formal publication.")
      (p "The conference will take place at the " 
 	"University of Maryland in College Park, Maryland.")
 
+     (p "The symposium will be held in room 1110 of the Jeong H. Kim Engineering Building:")
+
+     (iframe ((src "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101.103782837034!2d-76.93881540552391!3d38.99012769370171!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0x13a9812612a93c51!2sJeong+H.+Kim+Engineering+Building!5e0!3m2!1sen!2sus!4v1464905314434")
+	       (width "600")
+	       (height "450")
+	       (frameborder "0")
+	       (style "border:0")
+	       (allowfullscreen "true")))
+
+     
      (h2 "University of Maryland at College Park")
 
      (img ((src "umd-landscape-sm.png") (class "right")))
@@ -875,10 +896,13 @@ articles for formal publication.")
 	", or you can take the "
 	(a ((href "http://www.transportation.umd.edu/shuttle.html"))
 	   "UMD Shuttle Bus #104")
-	", which boards in the metro station parking lot.  Exit the "
+	", which boards in the lot to the West of the metro station.  Exit the "
 	"bus at the Glenn L. Martin Wind Tunnel, which is next door to "
 	"the Computer Science Department in the A. V. Williams "
-	"Building.")
+	"Building and across the street from the Jeong H. Kim Engineering Building.")
+
+     (p "The summer schedule for the 104 is available " (a ((href "http://www.dots.umd.edu/shuttle/schedules/summer/104.pdf")) "here") ".  You can also use the "
+	(a ((href "http://www.transportation.umd.edu/nextbus.html")) "NextBus") " service to get real-time bus data.")
 
 
      (h2 "Accommodations")
