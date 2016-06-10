@@ -414,7 +414,7 @@
        (dd "Ronald Garcia"))
       (h3 "10:15" ndash "10:45: Break: Coffee, tea, fruit")
       (h3 "10:45" ndash "12:15: Session I")
-      ; Marco
+      (p "Session chair: Marco Moraz" aacute "n")
       (dl
        (dt (a ((href "papers/TFP_2016_paper_11.pdf")) "What is Your Function? Static Pattern Matching on Function Behavior"))
        (dd "Leandro Facchinetti, Pottayil Harisanker Menon, Zachary Palmer, Alexander Rozenshteyn and Scott Smith")
@@ -427,7 +427,7 @@
        )
       (h3 "12:15" ndash "1:30: Lunch: 2460 A.V. Williams")
       (h3 "1:30" ndash "3:00: Session II")
-      ; Pieter
+      (p "Session chair: Pieter Koopman")
       (dl
        (dt (a ((href "papers/TFP_2016_paper_16.pdf")) "Improving Sequential Performance of Erlang based on a Meta-tracing Just-In-Time Compiler"))
        (dd "Ruochen Huang, Hidehiko Masuhara and Tomoyuki Aotani")
@@ -438,7 +438,7 @@
       
       (h3 "3:00" ndash "3:30: Break: Coffee, tea, fruit")
       (h3 "3:30" ndash "4:30: Session III")
-      ; DVH
+      (p "Session chair: David Van Horn")
 
       (dl
        (dt (a ((href "papers/TFP_2016_paper_2.pdf")) "Space-Efficient Latent Contracts"))
@@ -449,7 +449,7 @@
       (h2 "Thursday, June 9: TFP, Day 2")
       
       (h3 "9:00" ndash "10:30: Session IV")
-      ; DVH
+      (p "Session chair: David Van Horn")
       (dl
        (dt (a ((href "papers/TFP_2016_paper_3.pdf")) "Using DSLs to help people solve rule-based problems"))
        (dd "Nico Naus and Johan Jeuring")
@@ -461,7 +461,7 @@
 
       (h3 "10:30" ndash "11:00: Break: Coffee, tea, fruit")
       (h3 "11:00" ndash "12:00: Session V")
-      ; chris
+      (p "Session chair: Chris Martens")
       (dl
        (dt (a ((href "papers/TFP_2016_paper_8.pdf")) "Cactus Environment Machine: Shared Environment Call-by-Need"))
        (dd "George Stelle, Darko Stefanovic, Stephen Olivier and Stephanie Forrest")
@@ -489,7 +489,7 @@
        (dd "Steve Zdancewic"))
       (h3 "10:15" ndash "10:45: Break")
       (h3 "10:45" ndash "12:15: Session VI")
-      ; Scott
+      (p "Session chair: Scott Smith")
 
       (dd
        (dt (a ((href "papers/TFP_2016_paper_14.pdf")) "Automatic Parallelization and Transparent Fault Tolerance (Project article)"))
@@ -502,7 +502,7 @@
       (h3 "12:15" ndash "1:30: Lunch: 2460 A.V. Williams")
 
       (h3 "1:30" ndash "3:00: Session VII")
-      ; John?
+      (p "Session chair: John Hughes")
       (dl
        (dt (a ((href "papers/TFP_2016_paper_1.pdf")) "Separation of Concerns in iTasks " mdash " Implementing a Command & Control System in a Pure Functional Language"))
        (dd "Jurri" euml "n Stutterheim, Peter Achten and Rinus Plasmeijer")
