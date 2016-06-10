@@ -410,7 +410,7 @@
       
       (h3 "9:15" ndash "10:15: Invited talk")
       (dl
-       (dt "Static and Dynamic Type Checking: A Synopsis")
+       (dt "Static and Dynamic Type Checking: A Synopsis (" (a ((href "garcia.pdf")) "slides") ")")
        (dd "Ronald Garcia"))
       (h3 "10:15" ndash "10:45: Break: Coffee, tea, fruit")
       (h3 "10:45" ndash "12:15: Session I")
@@ -485,7 +485,7 @@
       
       (h3 "9:00" ndash "10:15: Invited talk")
       (dl
-       (dt "Type- and Example-Driven Program Synthesis")
+       (dt "Type- and Example-Driven Program Synthesis (" (a ((href "zdancewic.pdf")) "slides") ")")
        (dd "Steve Zdancewic"))
       (h3 "10:15" ndash "10:45: Break")
       (h3 "10:45" ndash "12:15: Session VI")
