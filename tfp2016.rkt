@@ -347,9 +347,9 @@
      (tr (td "Submission for formal review:")
 	 (td "July 14, 2016"))
      (tr (td "Notification of acceptance:")
-	 (td "September 14, 2016"))
+	 (td "October 31, 2016"))
      (tr (td "Camera ready paper:")
-	 (td "October 14, 2016")))])
+	 (td "November 30, 2016")))])
 
 (define (make-page title col)
   `(html
