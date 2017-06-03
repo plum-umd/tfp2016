@@ -1,0 +1,44 @@
+This file contains the title and *corresponding authors* email
+addresses (non-corresponding authors are not listed).
+
+Space-Efficient Latent Contracts, Michael Greenberg,
+michael.greenberg@pomona.edu
+
+Cactus Environment Machine: Shared Environment Call-by-Need, George
+Stelle, stelleg@cs.unm.edu
+
+The Random Access Zipper: Simple, Purely-Functional Sequences, Kyle
+Headley, kyle.headley@colorado.edu, Matthew Hammer,
+matthew.hammer@colorado.edu
+
+Proving Type Class Laws for Haskell, Andreas Arvidsson,
+andreas.arvidson@gmail.com, Moa Johansson, moa.johansson@chalmers.se,
+Robin Touche, robin_touche@hotmail.com
+
+Improving Sequential Performance of Erlang based on a Meta-tracing
+Just-In-Time Compiler, Ruochen Huang, hrc706@gmail.com, Hidehiko
+Masuhara, masuhara@acm.org, Tomoyuki Aotani, aotani@is.titech.ac.jp
+
+Project Report: Dependently typed programming with lambda encodings in
+Cedille, Ananda Guneratne, ananda-guneratne@uiowa.edu, Chad Reynolds,
+chad-reynolds@uiowa.edu, Aaron Stump, astump@acm.org
+
+Lightweight Affine Static Capabilities, Brian Mastenbrook,
+brian@mastenbrook.net, Kevin Marth, kevin.marth@airstash.com
+
+Dynamic Flow Analysis for JavaScript, Nico Naus, n.naus@uu.nl, Peter
+Thiemann, thiemann@acm.org
+
+Threading the Arduino with Haskell, Mark Grege, mark.grebe@ku.edu,
+Andy Gill, Andy.Gill@ittc.ku.edu
+
+Building a generic feedback system for rule-based problems, Nico Naus,
+n.naus@uu.nl, Johan Jeuring, J.T.Jeuring@uu.nl
+
+A Type Inference System Based on Saturation of Subtyping Constraints,
+Benoit Vaugon, benoit.vaugon@gmail.com, Michel Mauny,
+Michel.Mauny@ensta.fr
+
+
+
+
